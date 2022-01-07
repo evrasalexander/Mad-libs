@@ -1,0 +1,52 @@
+.container{
+    width: 45%;
+    background: darkred;
+    margin: 1px;
+    padding: 20px;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;
+
+}
+.container2{
+    width: 45%;
+    background: rgb(247, 247, 142);
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;
+
+}
+body{
+background-image: url(aapples.jpg);
+background-size:2000px;
+text-align: center;
+}
+h1{
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+input{
+    align-items: center;
+}
+p{
+    font-family: monospace;
+    font-weight: 600;
+    text-align: center;
+}
+.button{
+    border-radius: 5px;
+    margin-top: 5%;
+}
+button:hover{
+animation-name: background-color;
+animation-duration: 500ms;
+animation-fill-mode: forwards;
+}
+@keyframes background-color{
+   100% {
+background-color: #aae61e;
+    }
+}
+
